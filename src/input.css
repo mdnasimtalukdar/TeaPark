@@ -22,5 +22,5 @@
     @apply font-manrope text-5xl font-extrabold text-[#1C1C1C];
 }
 section {
-    @apply my-40;
+    @apply pt-40;
 }
