@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+/* === Font === */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.p {
+    @apply font-manrope text-base leading-7 font-medium text-[#777777];
+}
+.sectionHeading {
+    @apply font-manrope text-5xl font-extrabold text-[#1C1C1C];
+}
+section {
+    @apply my-40;
+}
